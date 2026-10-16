@@ -1,0 +1,14 @@
+# Dependencies (re-installed with `npm install`, never commit them)
+node_modules/
+
+# Production build output (re-created with `npm run build`)
+dist/
+
+# Environment files may contain secrets
+.env
+.env.*
+
+# Logs and editor files
+npm-debug.log*
+.DS_Store
+.vscode/
